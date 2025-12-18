@@ -1,0 +1,27 @@
+name: ymix_messenger
+description: YMIX Messenger App
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.1.0
+  shared_preferences: ^2.2.2
+  image_picker: ^1.0.4
+  provider: ^6.1.1
+  web_socket_channel: ^2.4.0
+  stomp_dart_client: ^0.4.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
