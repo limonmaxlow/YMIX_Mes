@@ -10,9 +10,9 @@ Flutter · Dart · STOMP/WebSocket
 
 ---
 
-## 📖 О проекте
+## О проекте
 
-**YMIX_MesClient** — кроссплатформенный клиент на Flutter, работающий в
+**YMIX_MesClient** - кроссплатформенный клиент на Flutter, работающий в
 паре с бэкендом [`YMIX_MesServer`](https://github.com/limonmaxlow/YMix_MesServer/blob/main/README.md).
 Приложение реализует полноценный сценарий обмена сообщениями: от
 регистрации и входа до переписки в реальном времени.
@@ -22,18 +22,18 @@ Flutter · Dart · STOMP/WebSocket
 
 **Возможности:**
 
-- 🔐 Регистрация и вход по логину и паролю, JWT-сессия сохраняется между
+- Регистрация и вход по логину и паролю, JWT-сессия сохраняется между
   запусками приложения
-- 💬 Список чатов с последним сообщением и счётчиком непрочитанных
-- 🔎 Поиск пользователей и создание нового личного чата
-- 📜 История переписки с постраничной подгрузкой (пагинация)
-- ⚡ Отправка и получение сообщений в реальном времени через STOMP/WebSocket
-- ✅ Отметка чата прочитанным
-- 👤 Экран профиля пользователя
+- Список чатов с последним сообщением и счётчиком непрочитанных
+- Поиск пользователей и создание нового личного чата
+- История переписки с постраничной подгрузкой (пагинация)
+- Отправка и получение сообщений в реальном времени через STOMP/WebSocket
+- Отметка чата прочитанным
+- Экран профиля пользователя
 
 ---
 
-## 🖥 Экраны приложения
+## Экраны приложения
 
 | Экран | Файл | Описание |
 |---|---|---|
@@ -49,34 +49,34 @@ Flutter · Dart · STOMP/WebSocket
 ## Скриншоты приложения
 
 <details>
-<summary>🎬 Заставка</summary>
+<summary> Заставка</summary>
 <img src="screenshots/Anim.png" width="220"/>
 </details>
 
 <details>
-<summary>🔐 Авторизация</summary>
+<summary> Авторизация</summary>
 <img src="screenshots/Auth.png" width="220"/>
 <img src="screenshots/Reg.png" width="220"/>
 </details>
 
 <details>
-<summary>💬 Список чатов</summary>
+<summary> Список чатов</summary>
 <img src="screenshots/Main.png" width="220"/>
 </details>
 
 <details>
-<summary>✉️ Переписка</summary>
+<summary> Переписка</summary>
 <img src="screenshots/Chat.png" width="220"/>
 <img src="screenshots/ChatProfile.png" width="220"/>
 </details>
 
 <details>
-<summary>👤 Профиль</summary>
+<summary> Профиль</summary>
 <img src="screenshots/Profile.png" width="220"/>
 </details>
 
 <details>
-<summary>⚙️ Настройки</summary>
+<summary> Настройки</summary>
 <img src="screenshots/Settings1.png" width="220"/>
 <img src="screenshots/Settings2.png" width="220"/>
 <img src="screenshots/Settings3.png" width="220"/>
@@ -85,7 +85,7 @@ Flutter · Dart · STOMP/WebSocket
 
 ---
 
-## 🏗 Архитектура
+## Архитектура
 
 ```
 lib/
@@ -111,7 +111,7 @@ lib/
 
 ---
 
-## 🔗 Соответствие экранов и API сервера
+## Соответствие экранов и API сервера
 
 | Действие в приложении | Endpoint на `YMIX_MesServer` |
 |---|---|
@@ -127,13 +127,13 @@ lib/
 
 ---
 
-## 🛠 Стек
+## Стек
 
 - Flutter (Dart), SDK `>=3.3.0 <4.0.0`
 
 ---
 
-## 🚀 Запуск
+## Запуск
 
 Понадобится установленный Flutter SDK и запущенный `YMIX_MesServer`.
 
